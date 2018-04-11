@@ -13,5 +13,6 @@ class CopyManager {
     static let shared = CopyManager()
     
     var copy: Node?
+    
 
 }
