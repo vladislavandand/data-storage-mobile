@@ -1,6 +1,0 @@
-framework module Pods_data_storage_mobileUITests {
-  umbrella header "Pods-data_storage_mobileUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

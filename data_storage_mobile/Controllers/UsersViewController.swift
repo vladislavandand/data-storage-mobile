@@ -245,16 +245,6 @@ class UsersViewController: UIViewController {
         })
     }
     
-    func addRoleAction(role: NodeUserRole, scope: Scope, item: Any)  {
-        
-        if scope == .users {
-            let mailingList = item as! MailingList
-        } else {
-            let user = item as! NodeUser
-        }
-        
-    }
-    
 }
 extension UsersViewController: UITableViewDataSource {
     
