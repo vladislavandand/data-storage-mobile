@@ -335,6 +335,7 @@
 				83F02ACC20473EEB00E8BC91 /* Resources */,
 				DF43D6A305F0D26E8630FFD5 /* [CP] Embed Pods Frameworks */,
 				42E6866B23A8151F5D1C7FA9 /* [CP] Copy Pods Resources */,
+				83EC65AA2082083C009EDD6E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -508,6 +509,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-data_storage_mobile/Pods-data_storage_mobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		83EC65AA2082083C009EDD6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 7d37859cdd48a23d559138042efc16453544c4a2 9112f23ee20600c1c4a10809f33ae09d2dfce087e8a2701112d3debafba7421a";
 		};
 		A2FFC4D472EF6C968712CF41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

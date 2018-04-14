@@ -6,6 +6,8 @@ target 'data_storage_mobile' do
   use_frameworks!
 
   pod 'Kingfisher', '~> 4.0'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'data_storage_mobileTests' do
     inherit! :search_paths
